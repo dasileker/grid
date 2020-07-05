@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sriracha", cursive;
+}
+
+.page-heading {
+  text-align: center;
+  font-size: 2.6rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  width: 600px;
+  height: 600px;
+  border: 10px solid #76818e;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-family: "Sriracha", cursive;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  background-color: #23c9ff;
+  color: white;
+  margin: 5px 20px 5px 20px;
+  padding: 0.4rem;
+  width: 12rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+  box-shadow: 4px 4px 6px #888888;
+}
